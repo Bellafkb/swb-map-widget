@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <!-- 
+      Here's an example of how we'd allow others to use the React Widget we made
+      We would provide our customers with instructions. 
+      For example:
+
+      "Copy these 3 lines of code and replace SUBREDDIT_HERE with the subreddit of your liking"
+        <div class="reddit_widget" data-subreddit="SUBREDDIT_HERE"></div>
+        <link href="https://giologist.github.io/article-react-reddit-widget/index.css" rel="stylesheet" />
+        <script src="https://giologist.github.io/article-react-reddit-widget/index.js"></script>
+    
+    -->
+
+    <!--
+    When using your widget, you want to give people the chance to resize it to their needs
+    -->
+
+    <!-- Here's an example of how others can set their own styling -->
+    <div style="margin: 100px auto; max-width: 400px;">
+      <div class="reddit_widget" data-subreddit="javascript"></div>
+    </div>
+
+    <!-- Or leave the constraints completely up to the react app -->
+    <div class="reddit_widget" data-subreddit="reactjs"></div>
+
+    <!-- Below are the JS and CSS files that people will include when using our widget -->
+    <link href="https://giologist.github.io/article-react-reddit-widget/index.css" rel="stylesheet" />
+    <script src="https://giologist.github.io/article-react-reddit-widget/index.js"></script>
+  </body>
+</html>
