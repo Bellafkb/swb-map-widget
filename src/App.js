@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import './App.css';
+import MainMap from "./components/MainMap";
+import "./App.css"
 
 function App({ domElement }) {
   return (
     <div className="reddit_widget__app">
-      hello world
+      <MainMap />
     </div>
   );
 }

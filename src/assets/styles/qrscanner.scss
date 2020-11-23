@@ -1,0 +1,17 @@
+
+@media only screen and (min-width: 768px) {
+  .qr-row{
+    width: 60% !important;
+    margin: auto;
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (min-width: 300px) {
+  .qr-row{
+    margin: auto;
+    margin-top: 30%;
+    display: none;
+  }
+}
+
